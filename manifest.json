@@ -2,6 +2,6 @@
   "domain": "huawei_hg659",
   "name": "Huawei HG659",
   "documentation": "https://www.home-assistant.io/integrations/huawei_hg659",
-  "requirements": ["huawei-hg659==0.0.2"],
+  "requirements": ["huawei-hg659==0.0.3"],
   "codeowners": ["@PretentiousPotatoPeeler"]
 }
