@@ -43,6 +43,7 @@ class HuaweiHG659DeviceScanner(DeviceScanner):
         self.host = config[CONF_HOST]
         self.username = config[CONF_USERNAME]
         self.password = config[CONF_PASSWORD]
+        self.last_results = []
 
     def scan_devices(self):
         """Scan for new devices and return a list with found device IDs."""
